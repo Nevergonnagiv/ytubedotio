@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.header-page {
+    padding: 15px;
+    background-color: red;
+    color: white;
+
+}
+.header-title {
+    font-weight: bolder;
+}
+.header-title a {
+    color: white;
+}
+.content .form {
+    background: rgb(231, 230, 230);
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: auto;
+    padding: 30px;
+    width: 300px;
+    height: 200px;
+}
+.content .form #url{
+    height: 30px;
+    width: 100%;
+}
+.content .form button {
+  background: red;
+  color: white;
+  width: 75px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+#mp4-player {
+  width: 100%;
+  height: 800px;
+  border: none;
+}
+footer {
+    background: black;
+    color: rgb(88, 88, 88);
+    padding: 50px;
+}
+footer pre {
+  font-size: 12px;
+  text-align: center;
+}
+footer a {
+  color: rgb(88, 88, 88);
+  text-decoration: none;
+}
+.menu-bar {
+    top: 0;
+    left: 0;
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    display: none;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  .tutorial-install .tutorial-title {
+    font-size: 12px;
+  }
+  .tutorial-install .first, .second, .third, .fourth, .fifth {
+    background: darkblue;
+    color: white;
+    border: 0;
+    border-radius: none;
+    padding: 10px;
+  }
+  .tutorial-install .first, .third, .fifth {
+    margin-right: 25%;
+  }
+  .tutorial-install .second, .fourth {
+    margin-left: 25%;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  
+.menu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.menu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+.menu .marked {
+  background-color: #06AA34;
+}
+.logo {
+  width: 15px;
+  height: 15px;
+}
+.comment {
+  width: 90%;
+  height: 75px;
+}
+.comment1 {
+  width: 85%;
+  height: 85px;
+}
+.comment2 {
+  width: 90%;
+  height: 100px;
+}
